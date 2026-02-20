@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Online Enrollment Form</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; background: #d9e2f0; color: #333; margin: 40px;">
+
+    <h1 style="color: #2c3e50; margin-bottom: 20px; text-align: center;">
+        College Enrollment Form
+    </h1>
+
+    <form action="registerdone.html"
+        style="max-width: 500px; margin: 0 auto; background: #ffffff; padding: 20px; border-radius: 5px; border: 1px solid #ccc;">
+
+        <label><b>First Name:</b></label><br>
+        <input type="text" required style="width: 100%; padding: 6px; margin-bottom: 12px;">
+
+        <label><b>Middle Name:</b></label><br>
+        <input type="text" required style="width: 100%; padding: 6px; margin-bottom: 12px;">
+
+        <label><b>Last Name:</b></label><br>
+        <input type="text" required style="width: 100%; padding: 6px; margin-bottom: 12px;">
+
+        <label><b>Birthday:</b></label><br>
+        <input type="date" required style="width: 100%; padding: 6px; margin-bottom: 12px;">
+
+        <label><b>Birthplace:</b></label><br>
+        <input type="text" required style="width: 100%; padding: 6px; margin-bottom: 12px;">
+
+        <label><b>Age:</b></label><br>
+        <input type="text" required style="width: 100%; padding: 6px; margin-bottom: 12px;">
+
+        <label><b>Year Level:</b></label><br>
+        <select required style="width: 100%; padding: 6px; margin-bottom: 12px;">
+            <option value="">Select Year Level</option>
+            <option>1st Year</option>
+            <option>2nd Year</option>
+            <option>3rd Year</option>
+            <option>4th Year</option>
+        </select>
+
+        <label><b>Course:</b></label><br>
+        <select required style="width: 100%; padding: 6px; margin-bottom: 12px;">
+            <option value="">Select Course</option>
+            <option>ACT (Associate in Computer Technology)</option>
+            <option>BSOA (Bachelor of Science in Office Administration)</option>
+            <option>ENTREP (Entrepreneurship)</option>
+            <option>HM (Hospitality Management)</option>
+            <option>CT (Computer Technology)</option>
+        </select>
+
+        <label><b>Citizenship:</b></label><br>
+        <input type="text" required style="width: 100%; padding: 6px; margin-bottom: 12px;">
+
+        <label><b>Sex:</b></label><br>
+        <input type="radio" name="Gender" id="Male"> <label for="Male"> Male</label>
+        <input type="radio" name="Gender" required id="Female" style="margin-left: 15px;"> <label for="Female"> Female</label>
+        <br><br>
+
+        <label><b>Civil Status:</b></label><br>
+        <select required style="width: 100%; padding: 6px; margin-bottom: 12px;">
+            <option value="">Select Status</option>
+            <option>Single</option>
+            <option>Married</option>
+            <option>Widowed</option>
+            <option>Divorced</option>
+        </select>
+
+        <label><b>Region:</b></label><br>
+        <input type="text" required style="width: 100%; padding: 6px; margin-bottom: 12px;">
+
+        <label><b>Province:</b></label><br>
+        <input type="text" required style="width: 100%; padding: 6px; margin-bottom: 12px;">
+
+        <label><b>City:</b></label><br>
+        <input type="text" required style="width: 100%; padding: 6px; margin-bottom: 12px;">
+
+        <label><b>Barangay:</b></label><br>
+        <input type="text" required style="width: 100%; padding: 6px; margin-bottom: 12px;">
+
+        <label><b>House No./Street:</b></label><br>
+        <input type="text" required style="width: 100%; padding: 6px; margin-bottom: 12px;">
+
+        <label><b>Contact No.:</b></label><br>
+        <input type="text" required style="width: 100%; padding: 6px; margin-bottom: 15px;">
+
+        <label><b>Credentials Submitted:</b></label><br><br>
+
+        <input type="checkbox" required> Form-138 (High School Card) <br>
+        <input type="checkbox"> Form-137 <br>
+        <input type="checkbox"> Birth Certificate <br>
+        <input type="checkbox"> Good Moral Certificate <br>
+        <input type="checkbox"> Certificate of Transfer Credentials <br>
+        <input type="checkbox"> Transcript of Records <br>
+        <input type="checkbox"> Summer Permit / Permit to Cross Enroll <br>
+        <input type="checkbox"> Picture <br>
+        <input type="checkbox"> PSA/NSO <br><br>
+
+        <input type="submit" value="Register"
+            style="padding: 8px 18px; background: #0d7834; color: white; border: 1px solid #000; border-radius: 3px;">
+
+        <input type="reset" value="Clear"
+            style="padding: 8px 18px; background: #e00606; color: white; border: 1px solid #000; border-radius: 3px; margin-left: 8px;">
+
+    </form>
+
+</body>
+</html>
